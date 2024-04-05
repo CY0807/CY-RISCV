@@ -21,5 +21,8 @@ isa:
 MAKE_TEST:
 	@echo $(CLEAN_DIR)
 
+autopush:
+	@git add .; git commit -m "auto commit"; git push -u origin master
+
 .PHONY := clean isa
 .DEFAULT_GOAL := run

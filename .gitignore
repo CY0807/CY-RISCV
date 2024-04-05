@@ -3,6 +3,7 @@
 **/build/
 **/gen/
 tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/
+tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14
 
 # Object files
 *.o

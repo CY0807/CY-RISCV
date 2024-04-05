@@ -1,1 +1,1 @@
-ROOT_DIR = /home/chris/tinyriscv
+ROOT_DIR = /home/a804_cy/cy-riscv
