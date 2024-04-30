@@ -24,5 +24,8 @@ MAKE_TEST:
 autopush:
 	@git add .; git commit -m "auto commit"; git push -u gitee main; git push -u github main
 
-.PHONY := clean isa
+push:
+	@git push -u gitee main;git push -u github main
+
+.PHONY := clean isa MAKE_TEST autopush push run
 .DEFAULT_GOAL := run
