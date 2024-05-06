@@ -22,10 +22,10 @@ MAKE_TEST:
 	@echo $(CLEAN_DIR)
 
 autopush:
-	@git add .; git commit -m "auto commit"; git push -u gitee main; git push -u github main
+	@git add .; git commit -m "auto commit"; git push -u gitee develop; git push -u github develop
 
 push:
-	@git push -u gitee main;git push -u github main
+	@git push -u gitee develop;git push -u github develop
 
 .PHONY := clean isa MAKE_TEST autopush push run
 .DEFAULT_GOAL := run
